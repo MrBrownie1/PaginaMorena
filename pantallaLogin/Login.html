@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="LoginCss.css"
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <form class="" action="">
+        <img src="" alt=""
+        <h2>Login</h2>
+        <div class="input-group"> <!-Funcion del correo->
+          <input type="text" name="loginUser" id="loginUser" required>
+          <label for="loginUser">Correo</label>
+        </div>
+        <div class="input-group"><!-Funcion de la contraseña->
+          <input type="password" name="loginPassword" id="loginPassword" required>
+          <label for="loginPassword">Contraseña</label>
+        </div>
+        <input type="submit" value="Login" class="submit-btn"><!-Funcion si olvido la contraseña->
+        <a href="forgot-pw" class="forgot-pw">Olvido la Contraseña?</a>
+      </form>
+      <div id="forgot-pw">
+        <form class="form" action="">
+          <a href="#" class="close">&times;</a>
+          <h2>Restablecer Contraseña</h2>
+          <div class="input-group"><!-Funcion restablecer contraseña->
+            <input type="email" name="email" id="email" required>
+            <label for="email">Correo</label>
+          </div>
+          <<input type="submit" value="Submit" class="submit-btn">
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>
